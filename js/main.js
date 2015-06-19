@@ -60,12 +60,9 @@ $(document).ready(function() {
 //	console.log("format : " + stringUtils.formatByJson("Hello {name}"	, { name: 'World' }) );
 
 
+	console.log("date : " + dateutils.format("yyyyMMdd"));
 
 
-//var date  = (new Date()).Format("yyyy-MM-dd hh:mm:ss.S");
-console.log("date : " + dateutils.format("yyyyMMdd"));
-
-//console.log("substr : " + "006".substr("" + "6".length));
     console.log("------------------------main.js is end------------------------");
 
 });
