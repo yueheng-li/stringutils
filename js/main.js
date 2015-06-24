@@ -55,14 +55,18 @@ $(document).ready(function() {
 	console.log("rightPad : " + stringUtils.rightPad("bat", 5, null));
 	console.log("rightPad : " + stringUtils.rightPad("bat", 5, ""));
 	*/
-	console.log("----- format ----------");
+//	console.log("----- format ----------");
 //	console.log("format : " + stringUtils.format('Your balance is {1} USD', 77.7) );
 //	console.log("format : " + stringUtils.formatByJson("Hello {name}"	, { name: 'World' }) );
 
 
-	console.log("date : " + dateutils.format("yyyyMMdd"));
+//	console.log("date : " + dateutils.format("yyyyMMdd"));
 
+//	console.log("date : " + dateutils.format("yyyyMMdd", dateutils.parseDate("2015/07/02")));
 
+//document.write("This is my first javascript"); 
+    var logUtils = $().LogUtils();
+logUtils.error("<test is world >");
     console.log("------------------------main.js is end------------------------");
 
 });
